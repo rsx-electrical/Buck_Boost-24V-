@@ -1,1 +1,0 @@
-Place your current progress in this folder, and ping me when you do. I'll be able to view it and make comments, and you can pull it from the GitHub and continue with any additional work.
