@@ -78,7 +78,7 @@
 		)
 	)
 	(net 0 "")
-	(gr_text "Test123"
+	(gr_text "Test1234"
 		(at 23.89 23.37 0)
 		(layer "F.Cu")
 		(uuid "74ed4041-9ba5-4913-9810-f419632f38b6")
