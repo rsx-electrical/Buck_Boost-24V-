@@ -56,7 +56,7 @@
   "git": {
     "repo_type": "ssh",
     "repo_username": "git",
-    "ssh_key": "C:\\Users\\Rivera\\.ssh\\id_ed25519"
+    "ssh_key": "C:\\Users\\antho\\.ssh\\id_ed25519"
   },
   "meta": {
     "filename": "Buck_Boost_main.kicad_prl",
@@ -88,16 +88,16 @@
       9
     ],
     "col_widths": [
-      294,
-      279,
-      173,
-      120,
-      173,
-      173,
-      173,
-      126,
-      173,
-      173
+      186,
+      171,
+      112,
+      79,
+      112,
+      112,
+      112,
+      83,
+      112,
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
