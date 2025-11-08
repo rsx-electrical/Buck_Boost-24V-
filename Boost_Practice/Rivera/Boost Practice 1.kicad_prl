@@ -54,12 +54,12 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "ssh",
-    "repo_username": "git",
-    "ssh_key": "C:\\Users\\Rivera\\.ssh\\id_ed25519"
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
-    "filename": "Buck_Boost_main.kicad_prl",
+    "filename": "Boost Practice 1.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
