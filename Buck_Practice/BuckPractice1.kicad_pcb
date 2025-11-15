@@ -1966,7 +1966,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "65d07798-de15-4204-898e-1db256218a4c")
-		(at 74.5 107.5)
+		(at 74.5 108.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -5874,7 +5874,7 @@
 		(uuid "73d70d30-7d57-4265-8f19-f01ac03d1e4d")
 	)
 	(via
-		(at 74.5 107.5)
+		(at 74.5 108.511166)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -5895,7 +5895,15 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 8)
-		(uuid "44ca594a-caeb-4842-add5-856d7dd43d3e")
+		(uuid "19e12463-0f6a-43f5-9d58-c95f9f0a4ea6")
+	)
+	(segment
+		(start 74.5 108.511166)
+		(end 75.488834 109.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "6b0fe485-77f7-4761-b13c-ff5f8da4b0e8")
 	)
 	(segment
 		(start 75.488834 109.5)
@@ -5903,15 +5911,7 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 8)
-		(uuid "59e5e315-b4dd-4722-8ea9-b8fb40e619f5")
-	)
-	(segment
-		(start 91 109.5)
-		(end 94.0875 106.4125)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 8)
-		(uuid "5c572b18-8851-43b7-9d36-df13eeb178fd")
+		(uuid "76aafa5b-523b-4ffa-bc2d-78b99bd488d5")
 	)
 	(segment
 		(start 99.4125 106.4125)
@@ -5930,20 +5930,12 @@
 		(uuid "c17d7edd-31ef-4c1e-ab0c-dc4755b95a85")
 	)
 	(segment
-		(start 74.5 108.511166)
-		(end 75.488834 109.5)
+		(start 91 109.5)
+		(end 94.0875 106.4125)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 8)
-		(uuid "d26d0a4a-57d0-4829-8f1c-a8744a94c110")
-	)
-	(segment
-		(start 74.5 107.5)
-		(end 74.5 108.511166)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 8)
-		(uuid "d4ced31b-3ff9-4d0c-8c0a-08967d185940")
+		(uuid "d7557469-b43b-4ecd-83ad-85bc9cc04827")
 	)
 	(segment
 		(start 106.1125 108.325)
