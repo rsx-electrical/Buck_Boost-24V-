@@ -2308,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 82.55) (xy 85.09 82.55)
+			(xy 40.64 82.55) (xy 85.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 82.55) (xy 41.91 100.33)
+			(xy 40.64 82.55) (xy 40.64 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 100.33) (xy 64.77 100.33)
+			(xy 48.26 100.33) (xy 64.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2864,6 +2864,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 44.45 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0da2dd2a-0bfc-40e0-a3cd-3aa7feb311b2")
+		(property "Reference" "D102"
+			(at 46.0375 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 46.0375 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b227614-e55e-44ef-ab52-64e2b4a71e33")
+		)
+		(pin "1"
+			(uuid "7362e3fe-bcf5-4fbf-9fa2-814d2849785d")
+		)
+		(instances
+			(project ""
+				(path "/bdacd1db-f779-4626-91d7-f5d5789723b2"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 83.82 0)
 		(unit 1)
@@ -3093,74 +3170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 45.72 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "219ef0a6-40e7-4d21-9913-831c21bbbeb4")
-		(property "Reference" "D101"
-			(at 47.3075 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 47.3075 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 45.72 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35be66ef-f2ca-4372-bcda-3855bca1a3e2")
-		)
-		(pin "1"
-			(uuid "1e330af4-8fab-46b3-a499-7d683e6cf78c")
-		)
-		(instances
-			(project ""
-				(path "/bdacd1db-f779-4626-91d7-f5d5789723b2"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 130.81 82.55 180)
 		(unit 1)
@@ -3240,7 +3249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23cc40c1-1115-46e8-bcb2-09937c5487df")
-		(property "Reference" "4.7k"
+		(property "Reference" "4.7k101"
 			(at 87.63 126.9999 0)
 			(effects
 				(font
@@ -3321,7 +3330,7 @@
 		(instances
 			(project "BoostPractice1"
 				(path "/bdacd1db-f779-4626-91d7-f5d5789723b2"
-					(reference "4.7k")
+					(reference "4.7k101")
 					(unit 1)
 				)
 			)
