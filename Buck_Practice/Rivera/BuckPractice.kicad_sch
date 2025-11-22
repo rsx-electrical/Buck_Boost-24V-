@@ -3701,10 +3701,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e985bc2-0c0f-402e-a79f-a2d3f698ce49")
+			(uuid "7e985bc2-0c0f-402e-a79f-a2d3f698ce4a")
 		)
 		(pin "2"
-			(uuid "3bf05e06-1740-4f92-a3f3-a9bd1227474e")
+			(uuid "3bf05e06-1740-4f92-a3f3-a9bd1227474f")
 		)
 		(instances
 			(project ""
@@ -5222,7 +5222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3.4k"
 			(at 194.31 123.1899 0)
 			(effects
 				(font
@@ -6103,7 +6103,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8d55e08-8dc5-447b-9f4d-66f99eeba3b2")
+			(uuid "e8d55e08-8dc5-447b-9f4d-66f99eeba3b3")
 		)
 		(instances
 			(project ""
