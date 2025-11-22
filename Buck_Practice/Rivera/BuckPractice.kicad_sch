@@ -4817,7 +4817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3.4k"
 			(at 194.31 123.1899 0)
 			(effects
 				(font
