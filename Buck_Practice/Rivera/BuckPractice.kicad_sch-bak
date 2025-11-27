@@ -2929,7 +2929,7 @@
 		(uuid "f9d79b7b-933f-4061-a4a1-313464c29d90")
 	)
 	(label "Vin"
-		(at 81.28 137.16 0)
+		(at 80.01 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3320,7 +3320,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f4a37b6-4ed7-43d4-8c73-c8d410b7e343")
+		(uuid "226c9469-a051-484f-b1cc-2fdff570d3f2")
 		(property "Reference" "SW1"
 			(at 100.33 105.41 0)
 			(effects
@@ -3337,7 +3337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 100.33 111.76 0)
 			(effects
 				(font
@@ -3365,10 +3365,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "092aa8eb-884e-4bc1-90e3-dc929b60edf9")
+			(uuid "7e985bc2-0c0f-402e-a79f-a2d3f698ce4a")
 		)
 		(pin "2"
-			(uuid "581a0e2b-abc0-4f5c-a88d-6886db7e6546")
+			(uuid "3bf05e06-1740-4f92-a3f3-a9bd1227474f")
 		)
 		(instances
 			(project ""
@@ -5292,7 +5292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 134.62 0)
+		(at 81.28 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5301,7 +5301,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1f984b9-323d-41d6-aaaf-1c5d415a11bc")
 		(property "Reference" "#PWR01"
-			(at 80.01 140.97 0)
+			(at 81.28 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 139.7 0)
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 134.62 0)
+			(at 81.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 134.62 0)
+			(at 81.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +5336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 134.62 0)
+			(at 81.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
