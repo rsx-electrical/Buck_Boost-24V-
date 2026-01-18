@@ -6,7 +6,8 @@ Intended for use in a rover system powering comms hardware (TpLink POE; JETSON A
 1. Message Discord that you are working in the repo. Nobody else can work on it once you message.
 2. `git clone git@github.com:rsx-electrical/Buck_Boost-24V-.git`
 3. Edit 4_switch_Buck_Boost
-4. Save a zip file version of your finished work into History Folder. 
+4. Edit the README in 4_switch_Buck_Boost to describe what your commit does and why the changes were made.
+5. Save a zip file version of your finished work into History Folder. 
 - File should named `<date/time>_<name>_<brief_description_of_changes>`
 5. Stage the files you want to commit. See "How to commit changes" bellow. 
 6. `git commit -m <commit message>`
