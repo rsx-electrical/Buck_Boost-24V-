@@ -4,13 +4,13 @@ Intended for use in a rover system powering comms hardware (TpLink POE; JETSON A
 
 # Workflow
 1. Message Discord that you are working in the repo. Nobody else can work on it once you message.
-2. git clone git@github.com:rsx-electrical/Buck_Boost-24V-.git
+2. `git clone git@github.com:rsx-electrical/Buck_Boost-24V-.git`
 3. Edit 4_switch_Buck_Boost
 4. Save a zip file version of your finished work into History Folder. 
 - File should named `<date/time>_<name>_<brief_description_of_changes>`
 5. Stage the files you want to commit. See "How to commit changes" bellow. 
-6. git commit -m `<commit message>`
-7. git push
+6. `git commit -m <commit message>`
+7. `git push`
 8. Yay:). You are done
 
 # Specs 
@@ -23,7 +23,7 @@ Design is still in development; input range, component choices, and power rating
 
 # How to commit changes
 A file with changes can be in one of three states: untracked, modified, or staged. Only staged files are included in the next commit. 
-- git status : command to see the status of the files you have modified
+- `git status`: command to see the status of the files you have modified
 ## Staged files
 Staged changes are changes in files that have been marked in git to be included in the next commit. The section labeled "Changes to be committed" in git status shows these staged files.
 If you stage a file and then make additional changes to it, those new changes are not staged and will not be included in the next commit. To include them, you need to stage the file again.
