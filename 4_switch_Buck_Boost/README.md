@@ -1,6 +1,10 @@
 # Purpose of readme
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
+
+## 02-07, Maria, Reformat to be readable
+Reformat to be split up into sections like the example Anthony gave us of a past boost converter. Input filtering capacitors with no values. They are placeholders. Values will need to be determined and number of capacitors will need to be determined. 
+
 ## 02-05, Maria, connected power path to chip
 Yeah I know title doesn't make sense. Added power path (MOSFETTS and inductor) to schematic. Connected FB. Vout/Vfb = 24. Chosen resistance values are (232 + 10)/10 =24.2. The ratio is correct; however, I assume these values may be changes for resistors rsx has in storage. 603 resistors are used because low power will flow through them. Shunt resistors are used for current sensing. Again these may be replaces with resistance values for resistors we already have. The math for these values can be found in the Google doc. Capacitors for the BST1 and BST2 are 2.5uC because gate charge of MOSFETTs are 2.5e-8C and the capacitance should be 100x the gate charge. Things needed to be talked about: do we want to use shunt resistors, and what resistors do we have in stock to choose from. 
 
