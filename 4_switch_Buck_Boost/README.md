@@ -2,6 +2,11 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+## 02-27, Maria, High Side Switch
+2N7002K: rsx nmos
+BSS83P: rsx pmos only has Vds of 30V. rsx pmos is cutting it close because our vin can be 25ish. Dangerous if there are any spikes in our Vin. Chosen because it has a Vds of -60V which is very safe.
+R106&R105: The Vgs of the pmos  (BSS83P) is +/- 20V. Having this voltage divide means that the gate of the pmos will be half the voltage of Vin. This will allow the pmos to turn on when required but have a Vgs range of 9V to 13V when the enable pin is on and it will be around 0 when the enable pin if off. These are all safe ranges.
+
 ## 02-07, Maria, Reformat to be readable
 Reformat to be split up into sections like the example Anthony gave us of a past boost converter. Input filtering capacitors with no values. They are placeholders. Values will need to be determined and number of capacitors will need to be determined. 
 
