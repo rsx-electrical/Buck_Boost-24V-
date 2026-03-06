@@ -2,6 +2,21 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+##03-06, Maria, LT8390 Pins
+To be quite honest the most important part of this commit is probably this readme where I am documenting all of the questions I have about these pins. This commit is mostly my best guess. I hope to get clarification this Saturday ;). 
+### RT pin
+This pin should have a resistor of 75kOhms attached to it. Question is should we have a potentiometer to ensure that we can tune to 75kOhms as all resistors will have some range of error on the resistance value. 
+### SS pin
+All of the example applications have a value of 0.1u F.  I  don't understand how we determine the minimum soft-start time that we want. We don't add a resistance here because we want to hiccup safety mode, not latch off or keep running mode. 
+### Vc pin
+I am so lost, I don't know my up from down for this pin.
+### PGOOD pin
+This pin is smth we could connect to an external microcontroller as indicator that the voltage has successfully reached its target. I don't think that this will probably be used.  However connect to INTVcc with 100k ohms so that pin is pulled low when the FB pin is within ±10 percent of the final regulation voltage. Maybe down the line we will want to connect it to smth, we could leave it hanging if we wanted.  A value of 100kohms is used because that is used in all of the example application circuits.
+### INTVcc pin
+Tie to 4.7uF ceramic capacitor as instructed.
+### SYNC/SPREAD
+We don't want an external source for the switching. I think we probably want to have the mode with the 15 percent spread around internal oscillator frequency to ensure no sudden noise peaks. Tie this pin to INTVcc. 
+
 ## 03-05, Maria, Capacitors !!!
 Thank you Anthony for the document about filtering ringing and ripple!!! The document helped with this section a lot. Also thank you to the LT890 data sheet for going through a bit about Cin and Cout capacitances. 
 ### Ringing Frequency
@@ -9,11 +24,11 @@ Ringing frequency of 75MHz-143MHz. 22nF will filter 30MHZ-100MHz range and 4.7nF
 ### Bulk Capacitors
 Calculations for the following are seen on this spreadsheet under the Capacitance Values tab: https://docs.google.com/spreadsheets/d/1GE4mJHaV0VTMqPT8AXjkSjW_NcW0vJ0DrAooZ-j17pU/edit?gid=2053012627#gid=2053012627
 #### Cout
-We want the output ripple to be at most 2 percent of the output voltage which is 0.480V. The output capacitence required to have this output ripple under boost conditions is at least  5.21uF and under buck conditions at least a 0.781uF output capacitance is required. To account for the Boost Right-Half-Plane Zero phenomenon a minimum of 57.9uF output capacitance is required.  To account for voltage undershoot an output capacitance of 1.46uF is required. Therefore for the circuit to be functional an output capacitance of at least 57.9uF is required. We want low ESR.  Two capacitances of 33uF can be used. 
+We want the output ripple to be at most 2 percent of the output voltage which is 0.480V. The output capacitance required to have this output ripple under boost conditions is at least  5.21uF and under buck conditions at least a 0.781uF output capacitance is required. To account for the Boost Right-Half-Plane Zero phenomenon a minimum of 57.9uF output capacitance is required.  To account for voltage undershoot an output capacitance of 1.46uF is required. Therefore for the circuit to be functional an output capacitance of at least 57.9uF is required. We want low ESR.  Two capacitances of 33uF can be used. 
 #### Cin
 A Cin of at least 1.14uF is required to maintain under a  input voltage ripple of 0.512V. However the input capacitance network should support a Irms current of Iout(max)/2 (see pg. 21 of LT8390 data sheet). No capacitor that small can support that large of a current. We also want a very small ESR. Therefore we should have larger capacitance values in parallel to split the current and lower ESR. For electrolytic capacitors that have smaller values their ESR is very large. Is it better to have only ceramic at the beginning. For now, I am going to put a placeholder value of three 22nF electrolytic capacitors or Cin. This will lower ESR and provide required capacitance. Ask this Saturday which type of capacitor would be best here. I feel like it would be ceramic. 
 ####Next Steps
-Next steps would be determining the exact capacitors required. I am uncertain if we have capacitors in stock. Smth I will have to ask Anthony. 
+Next steps would be determining the exact capacitors required. Most of this is gonna be a fight of finding capacitors with low ESRs. If all falls apart can just use capacitors with higher values and have more in parallel to lower ESR (generally larger value electrolytic capacitors have lower ESRs). I am uncertain if we are just gonna use capacitors we have in stock. Smth I will have to ask Anthony. 
 
 ## 02-27, Maria, High Side Switch
 2N7002K: rsx nmos
