@@ -2,12 +2,25 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+## 03-05, Maria, Capacitors !!!
+Thank you Anthony for the document about filtering ringing and ripple!!! The document helped with this section a lot. Also thank you to the LT890 data sheet for going through a bit about Cin and Cout capacitances. 
+### Ringing Frequency
+Ringing frequency of 75MHz-143MHz. 22nF will filter 30MHZ-100MHz range and 4.7nF will filter 100+MHz range. In a 4-switch buck-boost, the "Active Switching Side" moves depending on the mode (Buck or Boost). Therefore a  22 nF + 4.7 nF stack on required on both the Input and Output power rails to stay protected. At the high frequencies that ringing occurs at, the 15uH inductor between the two switching nodes is 2*pi*freq*(15e-6). For a frequency of 100MHz this comes to an impedance of 9.5KOhms. Maybe we can consider using snub circuits on the switching nodes? May not be required as power rails are protected.
+### Bulk Capacitors
+Calculations for the following are seen on this spreadsheet under the Capacitance Values tab: https://docs.google.com/spreadsheets/d/1GE4mJHaV0VTMqPT8AXjkSjW_NcW0vJ0DrAooZ-j17pU/edit?gid=2053012627#gid=2053012627
+#### Cout
+We want the output ripple to be at most 2 percent of the output voltage which is 0.480V. The output capacitence required to have this output ripple under boost conditions is at least  5.21uF and under buck conditions at least a 0.781uF output capacitance is required. To account for the Boost Right-Half-Plane Zero phenomenon a minimum of 57.9uF output capacitance is required.  To account for voltage undershoot an output capacitance of 1.46uF is required. Therefore for the circuit to be functional an output capacitance of at least 57.9uF is required. We want low ESR.  Two capacitances of 33uF can be used. 
+#### Cin
+A Cin of at least 1.14uF is required to maintain under a  input voltage ripple of 0.512V. However the input capacitance network should support a Irms current of Iout(max)/2 (see pg. 21 of LT8390 data sheet). No capacitor that small can support that large of a current. We also want a very small ESR. Therefore we should have larger capacitance values in parallel to split the current and lower ESR. For electrolytic capacitors that have smaller values their ESR is very large. Is it better to have only ceramic at the beginning. For now, I am going to put a placeholder value of three 22nF electrolytic capacitors or Cin. This will lower ESR and provide required capacitance. Ask this Saturday which type of capacitor would be best here. I feel like it would be ceramic. 
+####Next Steps
+Next steps would be determining the exact capacitors required. I am uncertain if we have capacitors in stock. Smth I will have to ask Anthony. 
+
 ## 02-27, Maria, High Side Switch
 2N7002K: rsx nmos
 BSS83P: rsx pmos only has Vds of 30V. rsx pmos is cutting it close because our vin can be 25ish. Dangerous if there are any spikes in our Vin. Chosen because it has a Vds of -60V which is very safe.
-R106&R105: The Vgs of the pmos  (BSS83P) is +/- 20V. Having this voltage divide means that the gate of the pmos will be half the voltage of Vin. This will allow the pmos to turn on when required but have a Vgs range of 9V to 13V when the enable pin is on and it will be around 0 when the enable pin if off. These are all safe ranges.
+R106&R105: The Vgs of the pmos  (BSS83P) is +/- 20V. Having this voltage divide means that the gate of the pmos will be half the voltage of Vin. This will allow the pmos to turn on when required but have a Vgs range of 9V to 13V when the enable pin is on and it will be around 0 when the enable pin if off. These are aat least 1.46ll safe ranges.
 ### Next Steps
-Find the spec for the LEDs that rsx has in stock. Find out what the the input voltage we will get from the microcontroller. Use this information to determine the exact values for the resistors at the gate of the nmos. 
+Find the spec for the LEDs that rsx has in stock. Find out what the input voltage we will get from the microcontroller. Use this information to determine the exact values for the resistors at the gate of the nmos. 
 
 ### LTSpice Simulation
 #### High Side Switch Vin is 25.6V
