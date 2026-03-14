@@ -3,6 +3,9 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+## 03-14, Maria Finish up pins and make it look pretty
+I tried to make it look prettier. I may have failed at that but I finished up the pins;).
+
 ## 03-07, William, FeedBack loop trimmer and decoupling capacitor addition
 
 Add a trimmer to ensure precise FB voltage of 1V, and a safety margin during tuning. Add Decoupling capacitor for stabilizing voltage.
