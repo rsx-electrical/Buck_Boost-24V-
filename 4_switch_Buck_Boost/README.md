@@ -3,6 +3,34 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+## 03-17, Anthony -- Additional revisions on Schematic for Smooth Layout design for yall
+Want to make layout go as smoothly as possible, so just went ahead and ensured all components had appropiate footprints. Also added NTC (temp control) for fan control using heat probe. 
+
+## List of stuff 
+-Added filter caps to Vin and Vout pin connections to LT8390
+
+-Adjusted for larger Cout over Cin to reflect calculated sizing demands.
+
+-Changed Inductor footprint for better saturation current rating/Irms rating, previous one was way to close to our shit, plus this footprint is way more streamlined imo
+
+-Opt to use different footprint for shunt, kicad-preloads are fucking stinky uh uh (DOWNLOAD AND IMPORT SYMBOL AND FOOTPRINT PLEASE: https://www.snapeda.com/parts/KRL3216T4-M-R003-F-T1/Susumu/view-part/ )
+
+-EN/UVLO needs voltage divider network for proper ENABLE, so adjusted level shifter circuit for ~1.2V to be seen at pin EN/UVLO, but still programs for undervoltage lockout when reach ~16V or so, good shutoff conditions in case BMS fucks us somehow -- It's a mandatory feature not preprogrammed like a lot of the TI chips are.
+
+-Better probing points for observing ripple, PWM, or general signals (3 kinds of probe footprints). M3 Mounting holes added as well and dedicated Net tie for GNDA and GND (fuck with footprint if need be)
+
+-Heatsink gonna be adhesive, fuck mounts, also made it an option to use osc freq or triangle spreading +/- 15%. Triangle spread usually better, but can introduce greater voltage ripple so we can place with it using jumper cap and 2x2 head conn setup.
+
+-NTC for temp control fan will prob be wire that sits and probes heatsink, so just a CONN for now, we'll see, up to ya'll.
+
+-All connections on schematic should roughly agree with where they'll go on layout (ie. BST caps near chip and not power stage)
+
+-SMD trimmers, not bulky n shit (THT or SMD, if going near chip, SMD, if away from chip, THT/SMD).
+
+-Snub filter 0805 caps, larger caps capable of handling transient response from fets way better than 402 or 603 so yeye, also shorter fuse holders too.
+
+
+
 ## 03-14, Anthony -- Final Check on shit
 All pin connections/sizing good -- ready for layout 
 
