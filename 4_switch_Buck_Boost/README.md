@@ -4,9 +4,11 @@ This README describes each commit made to the `4_switch_Buck_Boost folder`. Add 
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
 ## 03-17, Anthony -- Additional revisions on Schematic for Smooth Layout design for yall
-Want to make layout go as smoothly as possible, so just went ahead and ensured all components had appropiate footprints. Also added NTC (temp control) for fan control using heat probe. 
 
-## List of stuff 
+Want to make layout go as smoothly as possible, so just went ahead and ensured all components had appropiate footprints. Also added NTC (temp control) for fan control using heat probe.
+
+## List of stuff
+
 -Added filter caps to Vin and Vout pin connections to LT8390
 
 -Adjusted for larger Cout over Cin to reflect calculated sizing demands.
@@ -29,12 +31,16 @@ Want to make layout go as smoothly as possible, so just went ahead and ensured a
 
 -Snub filter 0805 caps, larger caps capable of handling transient response from fets way better than 402 or 603 so yeye, also shorter fuse holders too.
 
+## 04-03, William -- PCB components placement
 
+Tried to minimize the Hot loops, further optimization may be required
 
 ## 03-14, Anthony -- Final Check on shit
-All pin connections/sizing good -- ready for layout 
+
+All pin connections/sizing good -- ready for layout
 
 ## 03-14, Maria Finish up pins and make it look pretty
+
 I tried to make it look prettier. I may have failed at that but I finished up the pins;).
 
 ## 03-07, William, FeedBack loop trimmer and decoupling capacitor addition
