@@ -2,6 +2,11 @@
 
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
+## 06-03, Maria -- Passive Components, Controller and Auxiliary Circuits
+Added the passive components, controller and auxiliary Circuits to the power path
+
+## 05-23, Maria -- First Attempt at power path
+Uhm so this is written on June 3rd because I forgot. Soooooo yeah basically the title, first attempt at full power path.
 
 ## 03-17, Anthony -- Additional revisions on Schematic for Smooth Layout design for yall
 
