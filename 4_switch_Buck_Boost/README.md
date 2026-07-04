@@ -2,6 +2,10 @@
 
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
+
+## 07-03, Maria -- Passive Components, Controller and Auxiliary Circuits
+Feedback from the June 3rd commit was that the passive component circuits should be closer to the controller. There is no need to have them so spread out and close to the power path as it should be good to have a trace to the power path. This update moves the feedback circuit, enable circuit and passive components for the controller to be closer to the controller. This update adds traces for these circuits (traces for within these Passive Components and  Auxiliary Circuits only) as well as two pores for GNDA and GND (GND pore is the GND for the enable circuit). Please note that I know that the edges of these pores are rough. Turns out I am kinda sucky at drawing out pores. Also not there is no vias added. I am going to assume that these will be added once we agree with the component placement. 
+
 ## 06-03, Maria -- Passive Components, Controller and Auxiliary Circuits
 Added the passive components, controller and auxiliary Circuits to the power path
 
