@@ -3,19 +3,26 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+## 09-19, William -- Updated FETs symbols footprints, Inductor footprints, Connect traces for analog stage
+
 ## 09-12, Maria -- Reverse Polarity Protection
-Added reverse polarity protection to the schematic and layout. Placed between the fuse and vin. 
+
+Added reverse polarity protection to the schematic and layout. Placed between the fuse and vin.
 
 ## 07-17, Anthony -- Template Starting Changes
+
 Went ahead and hunkered down on some more final changes to the analog component placement, providing a tighter, more optimized orientation for building traces, closer/more compact. Def mess around with them if need be, esp the gate driver series resistors, those can go wherever you want, just pls keep the BOOTstrap caps as close as possible. With placement of analog passive components, gonna like draw gate signal traces as copper pours, up to discretion of later design review. Additionally, settled on shunt footprint/placement without compromising hot loop layout (best we gonna do, had to sacrifice snub filter, but this is optional, pick them up later). And, upgraded inductor footprint to be more 'on-brand' with the power inductors you're likely gonna find for the necessary L (uH) values that 55V/0.55A, 12V/5A are gonna demand. Please feel more than free to change any footprints you see fit. Also, omitted the fan control aux circuit, this is gonna be external to the buck-boost pcb. TLDR: slightly prepared everything to turn this 24V buck-boost into a template PCB for bucking/boosting and buck-boosting for 5V,12V,24V, and 55V.
 
 ## 07-03, Maria -- Passive Components, Controller and Auxiliary Circuits
-Feedback from the June 3rd commit was that the passive component circuits should be closer to the controller. There is no need to have them so spread out and close to the power path as it should be good to have a trace to the power path. This update moves the feedback circuit, enable circuit and passive components for the controller to be closer to the controller. This update adds traces for these circuits (traces for within these Passive Components and  Auxiliary Circuits only) as well as two pores for GNDA and GND (GND pore is the GND for the enable circuit). Please note that I know that the edges of these pores are rough. Turns out I am kinda sucky at drawing out pores. Also not there is no vias added. I am going to assume that these will be added once we agree with the component placement. 
+
+Feedback from the June 3rd commit was that the passive component circuits should be closer to the controller. There is no need to have them so spread out and close to the power path as it should be good to have a trace to the power path. This update moves the feedback circuit, enable circuit and passive components for the controller to be closer to the controller. This update adds traces for these circuits (traces for within these Passive Components and Auxiliary Circuits only) as well as two pores for GNDA and GND (GND pore is the GND for the enable circuit). Please note that I know that the edges of these pores are rough. Turns out I am kinda sucky at drawing out pores. Also not there is no vias added. I am going to assume that these will be added once we agree with the component placement.
 
 ## 06-03, Maria -- Passive Components, Controller and Auxiliary Circuits
+
 Added the passive components, controller and auxiliary Circuits to the power path
 
 ## 05-23, Maria -- First Attempt at power path
+
 Uhm so this is written on June 3rd because I forgot. Soooooo yeah basically the title, first attempt at full power path.
 
 ## 04-03, William -- PCB components placement
@@ -49,7 +56,6 @@ Want to make layout go as smoothly as possible, so just went ahead and ensured a
 -SMD trimmers, not bulky n shit (THT or SMD, if going near chip, SMD, if away from chip, THT/SMD).
 
 -Snub filter 0805 caps, larger caps capable of handling transient response from fets way better than 402 or 603 so yeye, also shorter fuse holders too.
-
 
 ## 03-14, Anthony -- Final Check on shit
 
