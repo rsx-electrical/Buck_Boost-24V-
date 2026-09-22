@@ -11809,7 +11809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shunt:RES_KRL3216T4-M-R003-F-T1"
+		(property "Footprint" "Rsense_Littelfuse_L4CL:R_2512_4Pad_Littelfuse_L4CL"
 			(at 227.33 41.91 0)
 			(effects
 				(font
@@ -19490,7 +19490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shunt:RES_KRL3216T4-M-R003-F-T1"
+		(property "Footprint" "Rsense_Littelfuse_L4CL:R_2512_4Pad_Littelfuse_L4CL"
 			(at 149.86 184.15 0)
 			(effects
 				(font
