@@ -3,14 +3,20 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+## 10-02 William -- SW1, GND, Vout, pores
+
+Draw and filled all the pores above along with the vias.
+
 ## 09-22 Maria -- Rsense footprint
-Added Littelfuse L4CL2512 footprint for the sensing resistors. Reangered power path to accommodate size change in new resistor and inductor footprints. 
+
+Added Littelfuse L4CL2512 footprint for the sensing resistors. Reangered power path to accommodate size change in new resistor and inductor footprints.
 
 ## 09-20, William -- 4 Layers GND and GNDA plane
 
 Made all the 4 Layers, Top-GND&GNDA-Vin-GND. Connected both GND and GNDA together thorugh a via and shorted resistor to prevent DRC error. Has connected all the vias in analog stage.
 
 ## 09-19, William -- Update footprint, Analog traces
+
 Updated FETs symbols footprints, Inductor footprints, Connect traces for analog stage
 
 ## 09-12, Maria -- Reverse Polarity Protection
