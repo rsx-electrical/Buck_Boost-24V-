@@ -1,0 +1,6 @@
+*.zip
+*/*.zip
+*/#auto_saved_files#
+*/Buck_Boost_main-backups
+*/*.lck
+4_switch_Buck_Boost/fp-info-cache
