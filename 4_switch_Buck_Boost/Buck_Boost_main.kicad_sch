@@ -10252,7 +10252,7 @@
 		(at 134.62 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10294,6 +10294,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 134.62 144.78 0)
 			(effects
 				(font
@@ -10706,6 +10715,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "448-BSC070N10LS5ATMA1CT-ND"
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8bb068a-615f-44b0-9654-edcc96efc3f8")
 		)
@@ -10815,7 +10833,7 @@
 		(at 63.5 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2b1d27c9-d6ba-4955-8126-e46e2ee6a8e2")
@@ -10854,6 +10872,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -11907,7 +11934,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "43119c30-fa48-4081-947a-a365baf187ad")
@@ -11948,6 +11975,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 76.2 181.61 0)
 			(effects
 				(font
@@ -12489,6 +12525,15 @@
 		)
 		(property "Description" "80 V N-channel Power MOSFET, SO-8FL / Case 488AA"
 			(at 69.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "488-NVMFS6H836NLT1GCT-ND"
+			(at 69.85 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,6 +13459,15 @@
 		)
 		(property "Description" "Infineon N-channel MOSFET, PG-TDSON-8; pins 1-3 Source, pin 4 Gate, pins 5-8 Drain"
 			(at 205.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "448-BSC070N10LS5ATMA1CT-ND"
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15446,6 +15500,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "448-BSC070N10LS5ATMA1CT-ND"
+			(at 204.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a02b3691-e4ea-4647-b4bd-62aff437d91d")
 		)
@@ -16153,6 +16216,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "448-BSC070N10LS5ATMA1CT-ND"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "7a24b221-e4dd-4a3c-b6a4-a4c65b3b5455")
 		)
@@ -16442,6 +16514,15 @@
 			)
 		)
 		(property "Description" "-0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23"
+			(at 236.22 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "BSS83PH6327XTSA1CT-ND"
 			(at 236.22 92.075 0)
 			(effects
 				(font
@@ -17349,6 +17430,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "505-LT8390EFE#PBF-ND"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "f6415b25-b6ae-4721-8f92-6ac36f00cc44")
 		)
@@ -18081,7 +18171,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4fb9cdf-a113-423f-b893-bc2f62a573a5")
@@ -18122,6 +18212,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -18644,7 +18743,7 @@
 		(at 121.92 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18686,6 +18785,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 121.92 144.78 0)
 			(effects
 				(font
