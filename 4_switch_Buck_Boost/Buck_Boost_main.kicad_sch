@@ -9694,6 +9694,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "RMCF0603FT4R70CT-ND"
+			(at 194.31 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84744624-5471-4ce5-906e-8f9183dfb061")
 		)
@@ -9755,6 +9764,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT22K0CT-ND"
 			(at 97.79 76.2 0)
 			(effects
 				(font
@@ -9870,7 +9888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at 276.098 63.5 90)
 			(effects
 				(font
@@ -9890,6 +9908,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4R70CT-ND"
+			(at 274.32 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,6 +10125,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-1427-1-ND"
+			(at 87.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8726cd06-f70a-474e-824a-8b8324892a4c")
 		)
@@ -10157,6 +10193,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.075 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-11994-1-ND"
 			(at 92.075 50.8 0)
 			(effects
 				(font
@@ -10252,7 +10297,7 @@
 		(at 134.62 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10302,6 +10347,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "445-5972-2-ND"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70031679-c914-4197-a39d-d37063e61391")
 		)
@@ -10342,7 +10396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at 215.138 59.69 90)
 			(effects
 				(font
@@ -10362,6 +10416,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4R70CT-ND"
+			(at 213.36 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,6 +10697,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "RMCF0603FT300KCT-ND"
+			(at 263.525 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c58f932-b70c-4178-91b3-5984031d274a")
 		)
@@ -10699,6 +10771,15 @@
 		)
 		(property "Description" "Infineon N-channel MOSFET, PG-TDSON-8; pins 1-3 Source, pin 4 Gate, pins 5-8 Drain"
 			(at 265.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "448-BSC070N10LS5ATMA1CT-ND"
+			(at 265.43 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,6 +10876,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-3285-1-ND"
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d4a4f95-28e0-426d-9398-27f01dd1ee93")
 		)
@@ -10815,7 +10905,7 @@
 		(at 63.5 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2b1d27c9-d6ba-4955-8126-e46e2ee6a8e2")
@@ -10854,6 +10944,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -11063,6 +11162,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "RMCF0603FT4R70CT-ND"
+			(at 252.73 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e36b7e01-82f4-4ed0-9d14-091f9241a032")
 		)
@@ -11124,6 +11232,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 265.43 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "13-RT0603BRD0750KLCT-ND"
 			(at 265.43 153.67 0)
 			(effects
 				(font
@@ -11516,6 +11633,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "408-KRL3216T4-M-R003-F-T1CT-ND"
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c24a16db-ba86-4cfe-b419-ba3d709b66fe")
 		)
@@ -11583,6 +11709,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-11994-1-ND"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -11660,6 +11795,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-3285-1-ND"
+			(at 199.39 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91e629a4-8614-4131-ba4a-f85c19bb27ba")
 		)
@@ -11680,7 +11824,7 @@
 		(at 270.51 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "41cdcd93-0f69-4e31-aefd-38ac3fcbb827")
@@ -11702,7 +11846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 275.59 41.91 0)
 			(effects
 				(font
@@ -11721,6 +11865,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 270.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "36-5001-ND"
 			(at 270.51 41.91 0)
 			(effects
 				(font
@@ -11907,7 +12060,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "43119c30-fa48-4081-947a-a365baf187ad")
@@ -11948,6 +12101,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 76.2 181.61 0)
 			(effects
 				(font
@@ -12041,7 +12203,7 @@
 		(at 17.78 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "44663acc-fa4c-409e-b9b2-02ec020ab369")
@@ -12154,6 +12316,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-12330-1-ND"
+			(at 88.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f49dbb73-6e88-4741-8608-063530492e3e")
 		)
@@ -12195,7 +12366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 65.405 41.275 0)
 			(effects
 				(font
@@ -12214,6 +12385,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 65.405 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "612-TSW-102-07-G-D-ND"
 			(at 65.405 41.275 0)
 			(effects
 				(font
@@ -12289,6 +12469,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-9669-1-ND"
 			(at 97.79 83.82 0)
 			(effects
 				(font
@@ -12496,6 +12685,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "488-NVMFS6H836NLT1GCT-ND"
+			(at 69.85 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "656b595b-c354-4761-aba6-0a029446b269")
 		)
@@ -12525,7 +12723,7 @@
 		(at 114.3 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4f021801-8479-428f-a564-9b69422f9e8c")
@@ -12639,6 +12837,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "RMCF0603FT4R70CT-ND"
+			(at 194.31 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47c521d1-75b8-484a-ba13-cdfcce9652bc")
 		)
@@ -12701,6 +12908,15 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
+			(at 74.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
 			(at 74.93 81.28 0)
 			(effects
 				(font
@@ -12877,6 +13093,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-3285-1-ND"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31824493-27af-4b9b-b26a-457997e80d80")
 		)
@@ -13012,6 +13237,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-11994-1-ND"
+			(at 158.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "693aed35-4808-4258-bd57-3dc38d027fc9")
 		)
@@ -13097,7 +13331,7 @@
 		(at 195.58 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13120,7 +13354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 200.66 41.91 0)
 			(effects
 				(font
@@ -13147,6 +13381,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "36-5001-ND"
+			(at 195.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c70c7bc4-6237-41d3-befd-966018e87105")
 		)
@@ -13164,7 +13407,7 @@
 		(at 207.01 108.585 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5b7f0152-1aeb-4673-8dbe-ff0cdec4fd19")
@@ -13271,7 +13514,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM HYBRID 33UF 20% 63V SMD"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-875575853003CT-ND"
 			(at 106.68 144.78 0)
 			(effects
 				(font
@@ -13348,6 +13600,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 30.48 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ca6f985-83a9-47bb-8d6f-6a0f10c1102b")
 		)
@@ -13414,6 +13675,15 @@
 		)
 		(property "Description" "Infineon N-channel MOSFET, PG-TDSON-8; pins 1-3 Source, pin 4 Gate, pins 5-8 Drain"
 			(at 205.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "448-BSC070N10LS5ATMA1CT-ND"
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13566,6 +13836,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 254 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4R70CT-ND"
+			(at 254 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13737,7 +14016,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM HYBRID 47UF 20% 63V SMD"
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-875585853004CT-ND"
 			(at 96.52 181.61 0)
 			(effects
 				(font
@@ -13832,7 +14120,7 @@
 		(at 39.37 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6da54f2f-3099-4ca8-aefc-c402cce97706")
@@ -13949,6 +14237,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 30.48 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad3a8661-8129-477e-b33f-2f33a0201045")
 		)
@@ -14018,6 +14315,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-3285-1-ND"
+			(at 251.46 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e701d69-e91c-4d96-b5db-6ff8f3e5e8d2")
 		)
@@ -14038,7 +14344,7 @@
 		(at 162.56 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6fbbfbd1-aa8f-45eb-8518-5084e517678f")
@@ -14248,7 +14554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 222.25 99.6949 0)
 			(effects
 				(font
@@ -14276,6 +14582,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 219.71 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 219.71 98.425 0)
 			(effects
 				(font
@@ -14420,6 +14735,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-3285-1-ND"
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab53aef4-859a-4108-bd9f-0fa0d41492f4")
 		)
@@ -14481,7 +14805,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM HYBRID 33UF 20% 63V SMD"
+			(at 80.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-875575853003CT-ND"
 			(at 80.01 144.78 0)
 			(effects
 				(font
@@ -14640,7 +14973,7 @@
 		(at 271.78 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8023541e-fac7-4305-ae9e-a723c35bb7eb")
@@ -14748,6 +15081,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-3285-1-ND"
 			(at 146.05 144.78 0)
 			(effects
 				(font
@@ -15170,6 +15512,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-17777-1-ND"
+			(at 170.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29359554-4d9f-4cf7-a792-a2881f558809")
 		)
@@ -15231,7 +15582,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM HYBRID 33UF 20% 63V SMD"
+			(at 93.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-875575853003CT-ND"
 			(at 93.98 144.78 0)
 			(effects
 				(font
@@ -15273,7 +15633,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 38.862 161.544 0)
 			(effects
 				(font
@@ -15301,6 +15661,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 45.72 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-3285-1-ND"
 			(at 45.72 160.02 0)
 			(effects
 				(font
@@ -15446,6 +15815,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "448-BSC070N10LS5ATMA1CT-ND"
+			(at 204.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a02b3691-e4ea-4647-b4bd-62aff437d91d")
 		)
@@ -15533,6 +15911,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "13-RT0603BRD0750KLCT-ND"
+			(at 263.525 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36bef018-d824-43e8-9db6-7fb0cd097cb5")
 		)
@@ -15594,6 +15981,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 29.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 29.21 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15898,6 +16294,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "505-LTC4372CMS8#PBF-ND"
+			(at 46.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "9654c216-7f2f-4f6d-b80d-f3e40c928554")
 		)
@@ -16045,7 +16450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 241.3 106.0449 0)
 			(effects
 				(font
@@ -16073,6 +16478,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 238.76 104.775 0)
 			(effects
 				(font
@@ -16153,6 +16567,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "448-BSC070N10LS5ATMA1CT-ND"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "7a24b221-e4dd-4a3c-b6a4-a4c65b3b5455")
 		)
@@ -16205,7 +16628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 212.09 116.2049 0)
 			(effects
 				(font
@@ -16233,6 +16656,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 209.55 114.935 0)
 			(effects
 				(font
@@ -16377,6 +16809,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "13-RT0603BRD0750KLCT-ND"
+			(at 265.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "433b2f69-fb71-4c96-a3f2-93a1737a6ae2")
 		)
@@ -16442,6 +16883,15 @@
 			)
 		)
 		(property "Description" "-0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23"
+			(at 236.22 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "BSS83PH6327XTSA1CT-ND"
 			(at 236.22 92.075 0)
 			(effects
 				(font
@@ -16520,6 +16970,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-12330-1-ND"
+			(at 157.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d5c4166-1a94-497e-a85e-d980a01fd7a7")
 		)
@@ -16540,7 +16999,7 @@
 		(at 125.73 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "afc2d967-155e-4577-a5fb-ebd95af0564e")
@@ -16620,7 +17079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 222.25 86.9949 0)
 			(effects
 				(font
@@ -16648,6 +17107,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 219.71 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 219.71 85.725 0)
 			(effects
 				(font
@@ -16719,6 +17187,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 40.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-17777-1-ND"
 			(at 40.64 181.61 0)
 			(effects
 				(font
@@ -17078,6 +17555,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" ""
+			(at 265.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35ddb361-9989-443b-868f-3ed393bbb387")
 		)
@@ -17143,6 +17629,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 274.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-1443-1-ND"
+			(at 274.32 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17346,6 +17841,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "505-LT8390EFE#PBF-ND"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17686,7 +18190,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM HYBRID 47UF 20% 63V SMD"
+			(at 121.92 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-875585853004CT-ND"
 			(at 121.92 181.61 0)
 			(effects
 				(font
@@ -17895,6 +18408,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-1443-1-ND"
+			(at 213.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9041f163-80b4-4f3e-b627-0c3b4236ecd0")
 		)
@@ -17915,7 +18437,7 @@
 		(at 57.15 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18081,7 +18603,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4fb9cdf-a113-423f-b893-bc2f62a573a5")
@@ -18122,6 +18644,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -18330,6 +18861,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-3285-1-ND"
+			(at 157.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e639e0b3-41f5-433a-bd6e-3c1730bf78d6")
 		)
@@ -18447,7 +18987,7 @@
 		(at 156.21 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d7694935-42d2-481f-91c8-386f91a920b4")
@@ -18578,7 +19118,7 @@
 		(at 91.44 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e56dbd60-076e-4ea7-8833-7db9e6bee0d6")
@@ -18644,7 +19184,7 @@
 		(at 121.92 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18686,6 +19226,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-5972-2-ND"
 			(at 121.92 144.78 0)
 			(effects
 				(font
@@ -18820,7 +19369,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM HYBRID 47UF 20% 63V SMD"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-875585853004CT-ND"
 			(at 109.22 181.61 0)
 			(effects
 				(font
@@ -19112,6 +19670,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "408-KRL3216T4-M-R003-F-T1CT-ND"
+			(at 138.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa8bf84c-54e7-4ef9-bb84-f0543beacf71")
 		)
@@ -19281,6 +19848,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "RMCF0603FT100KCT-ND"
+			(at 91.44 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dc16f86-dbaf-46f7-b1ca-5a596a6a4c30")
 		)
@@ -19433,7 +20009,7 @@
 		(at 74.93 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f4512de6-ca99-40c7-ab73-e38f84f4478d")
@@ -19644,6 +20220,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "RMCF0603FT56K0CT-ND"
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d19df87-91de-4428-ac60-92ea66005bd6")
 		)
@@ -19713,6 +20298,15 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "490-3285-1-ND"
+			(at 251.46 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94ece357-90ca-4127-80d7-d293933b80e6")
 		)
@@ -19774,6 +20368,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 252.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-3285-1-ND"
 			(at 252.73 144.78 0)
 			(effects
 				(font
