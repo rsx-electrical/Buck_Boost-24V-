@@ -3,6 +3,10 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+## 10-18 William -- Reconfigured Analog traces and GNDA island
+
+Configured all the analog traces and GNDA island for the new LT8390 footprint
+
 ## 10-02 William -- SW1, GND, Vout, pores
 
 Draw and filled all the pores above along with the vias.
