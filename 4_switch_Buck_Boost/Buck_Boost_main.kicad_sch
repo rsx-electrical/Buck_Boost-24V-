@@ -11485,7 +11485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Littelfuse_L4CA0612_KiCad9:Littelfuse_L4CA0612_4Terminal"
+		(property "Footprint" "WLTM:WLTM0612_R002-R100_Kelvin"
 			(at 231.14 41.91 0)
 			(effects
 				(font
