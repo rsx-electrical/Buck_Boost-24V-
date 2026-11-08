@@ -3,6 +3,25 @@
 This README describes each commit made to the `4_switch_Buck_Boost folder`. Add the most recent changes at the top, but below this "Purpose of readme" section.
 Each commit section title in this README should follow this format: `Date, Name, Title of Commit`
 
+## 11-07 William -- GND plane extension, board outline, connectivity fixes
+
+Layout:
+
+- Extended the F.Cu GND plane through the centre (including under L1) and filled the top centre with GND.
+- GNDA is now an island on In1, tied to GND through NT1 netlist at the U102 exposed pad.
+- Rerouted LSP/LSN as a matched pair, added the Vout pour, fixed tight clearances (FB, Vin near Q102 gate).
+- Moved TP6 to R104. Made F1/F2, TP1/TP11 and the BAT/OUTPUT pours symmetrical.
+- 45° corner cuts on all pours. Board outline added: 110 x 90 mm,
+
+Fixed opens that were already in the layout:
+
+- SW1/SW2: U102 pins 3/26 and C8/C9 were not connected to the switch nodes. Now routed via TP3/TP4.
+- In2 Vin plane was not connected to the rest of Vin. Added around 30 stitching vias (14 around the Q104 drain for heat).
+- ENABLE (J3/TP10 to C114), R1 to D1, C7 GND via, U101 GND pins, FB gaps.
+- R7 Kelvin footprint: added net-tie pad groups (1,2)(3,4) so DRC does not flag shorts.
+
+Fab: 2 oz outer (for higher current) and 1 oz inner copper
+
 ## 10-18 William -- Reconfigured Analog traces and GNDA island
 
 Configured all the analog traces and GNDA island for the new LT8390 footprint
